@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="../css/propio.css"  media="screen,projection"/>
+
+     <div class="navbar-fixed">
+       <nav class="black">
+         <div class="nav-wrapper">
+           <a href="#!" class="brand-logo">Logo</a>
+           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="../index.html">Home</a></li>
+             <li><a href="Introduction.html">Know the problem</a></li>
+             <li><a href="Academic.html">Expert Opinions</a></li>
+             <li><a href="Benchmark.html">Other Solutions</a></li>
+             <li><a href="AboutUs.html">About us</a></li>
+           </ul>
+
+         </div>
+     </nav>
+   </div>
+
+   <ul class="sidenav grey" id="mobile-demo">
+     <li><a href="../index.html">Home</a></li>
+     <li><a href="Introduction.html">Know the problem</a></li>
+     <li><a href="Academic.html">Expert Opinions</a></li>
+     <li><a href="Benchmark.html">Other Solutions</a></li>
+     <li><a href="Social.html">Social Impact</a></li>
+     <li><a href="AboutUs.html">About us</a></li>
+   </ul>
+
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   </head>
+
+   <body>
+
+     <div class="container">
+       <h1>Social Impact </h1>
+       <div class="row">
+         <div class="col s12">
+           <p>It is a non-productive activity we deal with daily.</p>
+           <p>Delays when getting to work or home.</p>
+           <p>It leaves you with less leisure time because you take up extra time to get to your destination.</p>
+           <p>Increases fuel consumption of your vehicle due to continuous braking and acceleration.</p>
+           <p>Higher emission of harmful gases into the atmosphere.</p>
+           <p>Tight space between cars increases the possibility of road accidents.</p>
+           <p>It drives us crazy!</p>
+
+         </div>
+       </div>
+
+
+
+     </div>
+
+     <!--JavaScript at end of body for optimized loading-->
+     <script type="text/javascript" src="../js/materialize.js"></script>
+     <script>
+       document.addEventListener('DOMContentLoaded', function() {
+       var elems = document.querySelectorAll('.sidenav');
+       var instances = M.Sidenav.init(elems);
+       });
+       document.addEventListener('DOMContentLoaded', function() {
+       var elems = document.querySelectorAll('.dropdown-trigger');
+       var instances = M.Dropdown.init(elems);
+       });
+     </script>
+   </body>
+ </html>
