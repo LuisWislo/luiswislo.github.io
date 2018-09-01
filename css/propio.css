@@ -1,3 +1,23 @@
 .sub{
   font-size:35px;
 }
+
+.page_title{
+  font-size: 45px;
+}
+
+.page_explanation{
+  font-size: 20px;
+
+}
+
+.plain_text{
+  font-size: 18px;
+}
+
+.slider_title{
+  color:white;
+}
+.angry_title{
+  color:black;
+}

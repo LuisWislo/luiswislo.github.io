@@ -40,17 +40,45 @@
 
    <body>
 
+     <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="../media/img/car_pollution.jpg"> <!-- random image -->
+        <!--<div class="caption left-align">
+          <h3 class="slider_title">More cars release more gases.</h3>
+
+        </div>-->
+      </li>
+      <li>
+        <img src="../media/img/angry_driver.png"
+      </li>
+      <li>
+        <img src="../media/img/leisure.jpg">
+      </li>
+      <li>
+        <img src="../media/img/accident.jpg"> <!-- random image -->
+      </li>
+    </ul>
+  </div>
+
      <div class="container">
-       <h1>Social Impact </h1>
+
+       <h1 class="center page_title">Social Impact </h1>
        <div class="row">
          <div class="col s12">
-           <p>It is a non-productive activity we deal with daily.</p>
-           <p>Delays when getting to work or home.</p>
-           <p>It leaves you with less leisure time because you take up extra time to get to your destination.</p>
-           <p>Increases fuel consumption of your vehicle due to continuous braking and acceleration.</p>
-           <p>Higher emission of harmful gases into the atmosphere.</p>
-           <p>Tight space between cars increases the possibility of road accidents.</p>
-           <p>It drives us crazy!</p>
+           <p class="page_explanation">Does heavy traffic have an impact on your file?
+              It may be worse than you thought initially. Check out its implications:
+           </p>
+           <br>
+           <ul class="browser-default plain_text">
+               <li>It is a non-productive activity we deal with daily.</li>
+               <li>Delays when getting to work or home.</li>
+               <li>It leaves you with less leisure time because you take up extra time to get to your destination.</li>
+               <li>Increases fuel consumption of your vehicle due to continuous braking and acceleration.</li>
+               <li>Higher emission of harmful gases into the atmosphere.</li>
+               <li>Tight space between cars increases the possibility of road accidents.</li>
+               <li>It drives us crazy!</li>
+           </ul>
 
          </div>
        </div>
@@ -70,6 +98,10 @@
        var elems = document.querySelectorAll('.dropdown-trigger');
        var instances = M.Dropdown.init(elems);
        });
+       document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems);
+      });
      </script>
    </body>
  </html>
