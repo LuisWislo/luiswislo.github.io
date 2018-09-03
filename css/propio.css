@@ -1,5 +1,6 @@
 .sub{
   font-size:35px;
+  margin:0;
 }
 
 .page_title{
@@ -11,6 +12,11 @@
 
 }
 
+.expert_opinion{
+  text-align:justify;
+  text-justify: inter-word;
+}
+
 .plain_text{
   font-size: 18px;
 }
@@ -20,4 +26,8 @@
 }
 .angry_title{
   color:black;
+}
+
+.main_title{
+  font-size:50px;
 }

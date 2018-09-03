@@ -24,7 +24,8 @@
      </nav>
    </div>
 
-   <ul class="sidenav grey" id="mobile-demo">
+   <ul class="sidenav" id="mobile-demo">
+     <li><img class="responsive-img" src="../media/img/leisure.jpg"></li>
      <li><a href="../index.html">Home</a></li>
      <li><a href="Introduction.html">Know the problem</a></li>
      <li><a href="Academic.html">Expert Opinions</a></li>
@@ -41,7 +42,78 @@
    <body>
 
      <div class="container">
-       <h1>Academic Research </h1>
+       <h1 class="page_title">Academic Research </h1>
+       <p class="plain_text">
+         What do the experts have to say about traffic congestion?
+         Take a look at some of the varied opinions different researchers have shared.
+         What do you think about them?
+       </p>
+
+       <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">person</i>Anthony Downs</div>
+          <div class="collapsible-body expert_opinion">
+            <div class="row">
+              <div class="col s9">
+            <span>
+              Says that traffic congestion is actually the solution of people’s mobility problem
+              (not an ideal one, mind you). Peak hours occur because school and work are required
+              to happen at the same time so people can interact with each other. This happens in
+              every major metropolitan area in the world.
+              <br><br>
+              “That basic requirement cannot be altered without crippling our economy and society.”
+              <br><br>
+              He believes that most proposed solutions can make the problem even worse (paid lanes,
+              demolition of buildings, etc.). There is no way to completely eliminate congestion,
+              but it is possible to mitigate it.
+              <br><br>
+              Check out Down’s full article:
+              <br>
+              <a href="https://www.brookings.edu/research/traffic-why-its-getting-worse-what-government-can-do/">www.brookings.edu</a>
+
+          </span>
+        </div>
+        <div class="col s3">
+          <img class="responsive-img" src="../media/img/anthony_downs.jpg">
+        </div>
+      </div></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">group</i>Royal Academy of Engineering</div>
+          <div class="collapsible-body expert_opinion">
+            <div class="row">
+              <div class="col s9">
+            <span>
+              On its first “challenge paper”, the working group looked at technology and policy measures that could reduce traffic
+              congestion in the most critical transport sectors by 2030.
+              <br><br>
+              Since the Department of Transport predicts an increase of congestion of 55% by 2040, the team behind the paper has
+              evaluated which measures would be effective and easy on the wallet. One of the most popular solutions was road pricing
+              schemes. Although controversial, they are the best way to tackle the problem, as they influence the time of travel,
+              chosen routes and incites the use of public transportation.
+              <br><br>
+              Professor Andrew McNaughton FREng, who led the group which produced the challenge paper, says: “Our country and economy
+              are growing. Our transport systems are struggling to cope. Building new capacity is vital but not the universal answer.
+              This challenge paper sets out how we can get on top of congestion, but only if we integrate technology advances and policy
+              initiatives, and only if we act now. Working together, government, engineers and regulators can make a difference.”
+              <br><br>
+              To learn more about the Royal Academy of Engineering’s contribution to the problem, go to the link below:
+              <br>
+              <a href="https://www.raeng.org.uk/news/news-releases/2015/december/academy-transport-experts-consider-ways-to-reduce">www.raeng.org.uk</a>
+
+
+            </span>
+              </div>
+              <div class="col s3">
+                <img class="responsive-img" src="../media/img/raofe.jpg">
+              </div>
+              </div></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+  </ul>
 
 
 
@@ -58,6 +130,10 @@
        var elems = document.querySelectorAll('.dropdown-trigger');
        var instances = M.Dropdown.init(elems);
        });
+       document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems);
+      });
      </script>
    </body>
  </html>
