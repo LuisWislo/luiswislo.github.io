@@ -12,6 +12,20 @@
 
 }
 
+.low_highlighted{
+  background-color: #d6d6d6;
+
+}
+
+.highlighted{
+  background-color: white;
+
+}
+
+.highlight_text{
+  color : black;
+}
+
 .expert_opinion{
   text-align:justify;
   text-justify: inter-word;

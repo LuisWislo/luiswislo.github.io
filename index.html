@@ -17,6 +17,7 @@
             <a href="index.html" class="brand-logo">Bodart & Wilson</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
+              <li class="highlighted"><a href="index.html"><span class="highlight_text"> Home</span></a></li>
               <li><a href="sub/Introduction.html">Know the problem</a></li>
               <li><a href="sub/Academic.html">Expert Opinions</a></li>
               <li><a href="sub/Benchmark.html">Other Solutions</a></li>
@@ -30,8 +31,8 @@
 
     <ul class="sidenav" id="mobile-demo">
       <li><img class="responsive-img"src="media/img/brando.png"></li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="sub/Introduction.html">Know the problem</a></li>
+      <li class="low_highlighted"><a href="index.html">Home</a></li>
+      <li><a href="sub/Introduction.html"><span class="highlight_text">Know the problem</span></a></li>
       <li><a href="sub/Academic.html">Expert Opinions</a></li>
       <li><a href="sub/Benchmark.html">Other Solutions</a></li>
       <li><a href="sub/Social.html">Social Impact</a></li>
@@ -81,6 +82,7 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
 
       <script>
+
         document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems);
