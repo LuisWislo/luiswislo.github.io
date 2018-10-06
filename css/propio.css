@@ -12,6 +12,33 @@
 
 }
 
+.archetype{
+  font-size: 40px;
+  font-family: Helvetica;
+}
+
+.persona_margin{
+  padding-top: 20px;
+}
+
+.persona_leftm{
+  padding-left: 20px;
+}
+
+.quote_size{
+  font-size: 18px;
+}
+
+.persona_sub{
+  font-size: 20px;
+}
+
+
+.persona_raw_text{
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
 .low_highlighted{
   background-color: #d6d6d6;
 
