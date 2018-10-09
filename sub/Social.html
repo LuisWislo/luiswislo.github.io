@@ -1,120 +1,94 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127058303-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- Let browser know website is optimized for mobile -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Import Google Icon Font-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection"/>  <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/propio.css" media="screen,projection"/>
+    <link rel="icon" type="image/png" href="../media/img/favi.png">
+    <title>Social Impact - B&W</title>
+  </head>
+  <body>
+    <div class="navbar-fixed" id="social">
+      <nav class="black">
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo">Bodart & Wilson</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html #intro">Know the Problem</a></li>
+            <li><a href="Academic.html">Expert Opinions</a></li>
+            <li><a href="Benchmark.html">Other Solutions</a></li>
+            <li class="highlighted"><a href="#social"><span class="highlight_text">Social Impact</span></a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-  gtag('config', 'UA-127058303-5');
-</script>
-
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-     <link type="text/css" rel="stylesheet" href="../css/propio.css"  media="screen,projection"/>
-     <title>Social Impact - B&W</title>
-     <link rel="icon" type="image/png" href="../media/img/favi.png">
-     <div class="navbar-fixed">
-       <nav class="black">
-         <div class="nav-wrapper">
-           <a href="../index.html" class="brand-logo">Bodart & Wilson</a>
-           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="../index.html">Home</a></li>
-             <li><a href="Introduction.html">Know the problem</a></li>
-             <li><a href="Academic.html">Expert Opinions</a></li>
-             <li><a href="Benchmark.html">Other Solutions</a></li>
-             <li class="highlighted"><a href="Social.html"><span class="highlight_text">Social Impact</span></a></li>
-             <li><a href="AboutUs.html">About us</a></li>
-           </ul>
-
-         </div>
-     </nav>
-   </div>
-
-   <ul class="sidenav" id="mobile-demo">
-     <li><img class="responsive-img" src="../media/img/brando.png"></li>
-     <li><a href="../index.html">Home</a></li>
-     <li><a href="Introduction.html">Know the problem</a></li>
-     <li><a href="Academic.html">Expert Opinions</a></li>
-     <li><a href="Benchmark.html">Other Solutions</a></li>
-     <li class="low_highlighted"><a href="Social.html">Social Impact</a></li>
-     <li><a href="AboutUs.html">About us</a></li>
-   </ul>
-
-
-     <!--Let browser know website is optimized for mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   </head>
-
-   <body>
-
-     <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="../media/img/car_pollution.jpg"> <!-- random image -->
-        <!--<div class="caption left-align">
-          <h3 class="slider_title">More cars release more gases.</h3>
-
-        </div>-->
-      </li>
-      <li>
-        <img src="../media/img/angry_driver.png"
-      </li>
-      <li>
-        <img src="../media/img/fuel.jpg">
-      </li>
-      <li>
-        <img src="../media/img/accident.jpg"> <!-- random image -->
-      </li>
+    <ul class="sidenav" id="mobile-demo">
+      <li><img class="responsive-img" src="../media/img/brando.png"></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html #intro">Know the Problem</a></li>
+      <li><a href="Academic.html">Expert Opinions</a></li>
+      <li><a href="Benchmark.html">Other Solutions</a></li>
+      <li class="low_highlighted"><a href="#social"><span class="highlight_text">Social Impact</span></a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
     </ul>
-  </div>
+    
+    <div class="container"> <!-- Container Social -->
+      <h1 class="center main_title">Social Impact</h1>
+      <div class="row">
+        <div class="col s12"> <!-- Page Definition -->
+          <p class="page_explanation">
+            Does heavy traffic have an impact on your file?
+            It may be worse than you thought initially. Check out its implications:
+          </p>
+          <br>
+          <ul class="browser-default plain_text">
+            <li>It is a non-productive activity we deal with daily.</li>
+            <li>Delays when getting to work or home.</li>
+            <li>It leaves you with less leisure time because you take up extra time to get to your destination.</li>
+            <li>Increases fuel consumption of your vehicle due to continuous braking and acceleration.</li>
+            <li>Higher emission of harmful gases into the atmosphere.</li>
+            <li>Tight space between cars increases the possibility of road accidents.</li>
+            <li>It drives us crazy!</li>
+          </ul>
+          </div> <!-- /Page Definition -->
+      </div>
+    </div>  <!-- /Container Social -->
 
-     <div class="container">
+    <div class="slider">  <!-- Slider Images -->
+      <ul class="slides">
+        <li>
+          <img src="../media/img/car_pollution.jpg">
+          <div class="caption left-align">
+            <h5 class="slider_title">More cars release more gases.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="../media/img/angry_driver.png"
+        </li>
+        <li>
+          <img src="../media/img/fuel.jpg">
+        </li>
+        <li>
+          <img src="../media/img/accident.jpg">
+        </li>
+      </ul>
+    </div>  <!-- /Slider Images -->
 
-       <h1 class="center page_title">Social Impact </h1>
-       <div class="row">
-         <div class="col s12">
-           <p class="page_explanation">Does heavy traffic have an impact on your file?
-              It may be worse than you thought initially. Check out its implications:
-           </p>
-           <br>
-           <ul class="browser-default plain_text">
-               <li>It is a non-productive activity we deal with daily.</li>
-               <li>Delays when getting to work or home.</li>
-               <li>It leaves you with less leisure time because you take up extra time to get to your destination.</li>
-               <li>Increases fuel consumption of your vehicle due to continuous braking and acceleration.</li>
-               <li>Higher emission of harmful gases into the atmosphere.</li>
-               <li>Tight space between cars increases the possibility of road accidents.</li>
-               <li>It drives us crazy!</li>
-           </ul>
-
-         </div>
-       </div>
-
-
-
-     </div>
-
-     <!--JavaScript at end of body for optimized loading-->
-     <script type="text/javascript" src="../js/materialize.min.js"></script>
-     <script>
-       document.addEventListener('DOMContentLoaded', function() {
-       var elems = document.querySelectorAll('.sidenav');
-       var instances = M.Sidenav.init(elems);
-       });
-       document.addEventListener('DOMContentLoaded', function() {
-       var elems = document.querySelectorAll('.dropdown-trigger');
-       var instances = M.Dropdown.init(elems);
-       });
-       document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.slider');
-      var instances = M.Slider.init(elems);
+    <script type="text/javascript" src="../js/materialize.min.js"></script>  <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/propio.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127060061-1"></script>  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" src="../js/google_analytics.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems);
       });
-     </script>
-   </body>
- </html>
+    </script>
+
+  </body>
+</html>

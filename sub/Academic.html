@@ -1,182 +1,151 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127058303-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- Let browser know website is optimized for mobile -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!--Import Google Icon Font-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" /> <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/propio.css" media="screen,projection" />
+    <link rel="icon" type="image/png" href="../media/img/favi.png">
+    <title>Expert Opinions - B&W</title>
+  </head>
+  <body>
+    <div class="navbar-fixed" id="expert">
+      <nav class="black">
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo">Bodart & Wilson</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html #intro">Know the Problem</a></li>
+            <li class="highlighted"><a href="#expert"><span class="highlight_text">Expert Opinions</span></a></li>
+            <li><a href="Benchmark.html">Other Solutions</a></li>
+            <li><a href="Social.html">Social Impact</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><img class="responsive-img" src="../media/img/brando.png"></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html #intro">Know the Problem</a></li>
+      <li class="low_highlighted"><a href="#expert"><span class="highlight_text">Expert Opinions</span></a></li>
+      <li><a href="Benchmark.html">Other Solutions</a></li>
+      <li><a href="Social.html">Social Impact</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+    </ul>
 
-  gtag('config', 'UA-127058303-3');
-</script>
-
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
-     <link type="text/css" rel="stylesheet" href="../css/propio.css"  media="screen,projection"/>
-     <title>Expert Opinions - B&W</title>
-     <link rel="icon" type="image/png" href="../media/img/favi.png">
-     <div class="navbar-fixed">
-       <nav class="black">
-         <div class="nav-wrapper">
-           <a href="../index.html" class="brand-logo">Bodart & Wilson</a>
-           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-           <ul class="right hide-on-med-and-down">
-             <li><a href="../index.html">Home</a></li>
-             <li><a href="Introduction.html">Know the problem</a></li>
-             <li class="highlighted"><a href="Academic.html"><span class="highlight_text">Expert Opinions</span></a></li>
-             <li><a href="Benchmark.html">Other Solutions</a></li>
-             <li><a href="Social.html">Social Impact</a></li>
-             <li><a href="AboutUs.html">About us</a></li>
-           </ul>
-
-         </div>
-     </nav>
-   </div>
-
-   <ul class="sidenav" id="mobile-demo">
-     <li><img class="responsive-img" src="../media/img/brando.png"></li>
-     <li><a href="../index.html">Home</a></li>
-     <li><a href="Introduction.html">Know the problem</a></li>
-     <li class="low_highlighted"><a href="Academic.html">Expert Opinions</a></li>
-     <li><a href="Benchmark.html">Other Solutions</a></li>
-     <li><a href="Social.html">Social Impact</a></li>
-     <li><a href="AboutUs.html">About us</a></li>
-   </ul>
-
-
-     <!--Let browser know website is optimized for mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   </head>
-
-   <body>
-
-     <div class="container">
-       <h1 class="page_title">Academic Research </h1>
-       <p class="plain_text">
-         What do the experts have to say about traffic congestion?
-         Take a look at some of the varied opinions different researchers have shared.
-         What do you think about them?
-       </p>
-
-       <ul class="collapsible">
-        <li>
-          <div class="collapsible-header"><i class="material-icons">person</i>Anthony Downs</div>
+    <div class="container"> <!-- Container Experts -->
+      <h1 class="center main_title">Academic Research</h1>
+      <p class="browser_default plain_text">  <!-- Problem Definition -->
+        What do the experts have to say about traffic congestion?
+        Take a look at some of the varied opinions different researchers have shared.
+        What do you think about them?
+      </p>
+      <ul class="collapsible">  <!-- Collapsible Experts -->
+        <li class="active">
+          <div class="collapsible-header"><i class="material-icons">face</i>Anthony Downs</div> <!-- Expert 1 -->
           <div class="collapsible-body expert_opinion">
             <div class="row">
               <div class="col s9">
-            <span>
-              Says that traffic congestion is actually the solution of people’s mobility problem
-              (not an ideal one, mind you). Peak hours occur because school and work are required
-              to happen at the same time so people can interact with each other. This happens in
-              every major metropolitan area in the world.
-              <br><br>
-              “That basic requirement cannot be altered without crippling our economy and society.”
-              <br><br>
-              He believes that most proposed solutions can make the problem even worse (paid lanes,
-              demolition of buildings, etc.). There is no way to completely eliminate congestion,
-              but it is possible to mitigate it.
-              <br><br>
-              Check out Down’s full article:
-              <br>
-              <a href="https://www.brookings.edu/research/traffic-why-its-getting-worse-what-government-can-do/">www.brookings.edu</a>
-
-          </span>
-        </div>
-        <div class="col s3">
-          <img class="responsive-img" src="../media/img/anthony_downs.jpg">
-        </div>
-      </div></div>
+                <span>
+                  Says that traffic congestion is actually the solution of people’s mobility problem
+                  (not an ideal one, mind you). Peak hours occur because school and work are required
+                  to happen at the same time so people can interact with each other. This happens in
+                  every major metropolitan area in the world.
+                  <br><br>
+                  “That basic requirement cannot be altered without crippling our economy and society.”
+                  <br><br>
+                  He believes that most proposed solutions can make the problem even worse (paid lanes,
+                  demolition of buildings, etc.). There is no way to completely eliminate congestion,
+                  but it is possible to mitigate it.
+                  <br><br>
+                  Check out Down’s full article:
+                  <br>
+                  <a href="https://www.brookings.edu/research/traffic-why-its-getting-worse-what-government-can-do/">www.brookings.edu</a>
+                </span>
+              </div>
+              <div class="col s3">
+                <img class="responsive-img" src="../media/img/anthony_downs.jpg">
+              </div>
+            </div></div>  <!-- /Expert 1 -->
         </li>
         <li>
-          <div class="collapsible-header"><i class="material-icons">group</i>Royal Academy of Engineering</div>
+          <div class="collapsible-header"><i class="material-icons">group</i>Royal Academy of Engineering</div> <!-- Expert 2 -->
           <div class="collapsible-body expert_opinion">
             <div class="row">
               <div class="col s9">
-            <span>
-              On its first “challenge paper”, the working group looked at technology and policy measures that could reduce traffic
-              congestion in the most critical transport sectors by 2030.
-              <br><br>
-              Since the Department of Transport predicts an increase of congestion of 55% by 2040, the team behind the paper has
-              evaluated which measures would be effective and easy on the wallet. One of the most popular solutions was road pricing
-              schemes. Although controversial, they are the best way to tackle the problem, as they influence the time of travel,
-              chosen routes and incites the use of public transportation.
-              <br><br>
-              Professor Andrew McNaughton FREng, who led the group which produced the challenge paper, says: “Our country and economy
-              are growing. Our transport systems are struggling to cope. Building new capacity is vital but not the universal answer.
-              This challenge paper sets out how we can get on top of congestion, but only if we integrate technology advances and policy
-              initiatives, and only if we act now. Working together, government, engineers and regulators can make a difference.”
-              <br><br>
-              To learn more about the Royal Academy of Engineering’s contribution to the problem, go to the link below:
-              <br>
-              <a href="https://www.raeng.org.uk/news/news-releases/2015/december/academy-transport-experts-consider-ways-to-reduce">www.raeng.org.uk</a>
-
-
-            </span>
+                <span>
+                  On its first “challenge paper”, the working group looked at technology and policy measures
+                  that could reduce traffic congestion in the most critical transport sectors by 2030.
+                  <br><br>
+                  Since the Department of Transport predicts an increase of congestion of 55% by 2040, the
+                  team behind the paper has evaluated which measures would be effective and easy on the wallet.
+                  One of the most popular solutions was road pricing schemes. Although controversial, they are
+                  the best way to tackle the problem, as they influence the time of travel, chosen routes and
+                  incites the use of public transportation.
+                  <br><br>
+                  Professor Andrew McNaughton FREng, who led the group which produced the challenge paper,
+                  says: “Our country and economy are growing. Our transport systems are struggling to cope.
+                  Building new capacity is vital but not the universal answer. This challenge paper sets out
+                  how we can get on top of congestion, but only if we integrate technology advances and policy
+                  initiatives, and only if we act now. Working together, government, engineers and regulators
+                  can make a difference.”
+                  <br><br>
+                  To learn more about the Royal Academy of Engineering’s contribution to the problem, go to
+                  the link below:
+                  <br>
+                  <a href="https://www.raeng.org.uk/news/news-releases/2015/december/academy-transport-experts-consider-ways-to-reduce">www.raeng.org.uk</a>
+                </span>
               </div>
               <div class="col s3">
                 <img class="responsive-img" src="../media/img/raofe.jpg">
               </div>
-              </div></div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="material-icons">smartphone</i>Hani S. Mahmassani</div>
-          <div class="collapsible-body expert_opinion">
-            <div class="row">
-              <div class="col s9">
-            <span>
-              Hani Mahmassani, director of the Northwestern University Transportation,
-              was one of the keynote speakers at an event in Nashville, Tennessee, where
-              many agencies got together to address mobility and traffic congestion challenges
-              in the city.
-              <br><br>
-              Interestingly, he addressed the advantages new technologies such as Lyft and Uber have
-              brought upon mobility. They are very important for our daily lives. However, he does note
-              that they "act as separate islands without coordination".
-              <br><br>
-              "A lot of the components falling in place but how can you get the components to work together
-              as a system? Mahmassani said. “Agencies are at a loss. There is nothing in the tool kit.”
-              <br><br>
-              Check out more about Mahmassani's take on the subject on the link below:
+            </div></div>  <!-- /Expert 2 -->
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">person</i>Hani S. Mahmassani</div>  <!-- Expert 3 -->
+            <div class="collapsible-body expert_opinion">
+              <div class="row">
+                <div class="col s9">
+                  <span>
+                    Hani Mahmassani, director of the Northwestern University Transportation, was one of the
+                    keynote speakers at an event in Nashville, Tennessee, where many agencies got together
+                    to address mobility and traffic congestion challenges in the city.
+                    <br><br>
+                    Interestingly, he addressed the advantages new technologies such as Lyft and Uber have
+                    brought upon mobility. They are very important for our daily lives. However, he does note
+                    that they "act as separate islands without coordination".
+                    <br><br>
+                    "A lot of the components falling in place but how can you get the components to work
+                    together as a system? Mahmassani said. “Agencies are at a loss. There is nothing in the
+                    tool kit.”
+                    <br><br>
+                    Check out more about Mahmassani's take on the subject on the link below:
+                    <br>
+                    <a href="https://engineering.vanderbilt.edu/news/2018/transportation-congestion-connectivity-conflicts/">engineering.vanderbilt.edu</a>
+                  </span>
+                </div>
+                <div class="col s3">
+                  <img class="responsive-img" src="../media/img/hani.jpg">
+                </div>
+              </div></div>  <!-- /Expert 3 -->
+          </li>
+      </ul> <!-- /Collapsible Experts -->
+    </div>  <!-- /Container Experts -->
 
-
-              <br>
-              <a href="https://engineering.vanderbilt.edu/news/2018/transportation-congestion-connectivity-conflicts/">engineering.vanderbilt.edu</a>
-
-
-            </span>
-              </div>
-              <div class="col s3">
-                <img class="responsive-img" src="../media/img/hani.jpg">
-              </div>
-              </div></div>
-
-
-          </div>
-        </li>
-  </ul>
-
-
-
-     </div>
-
-     <!--JavaScript at end of body for optimized loading-->
-     <script type="text/javascript" src="../js/materialize.min.js"></script>
-     <script>
-       document.addEventListener('DOMContentLoaded', function() {
-       var elems = document.querySelectorAll('.sidenav');
-       var instances = M.Sidenav.init(elems);
-       });
-       document.addEventListener('DOMContentLoaded', function() {
-       var elems = document.querySelectorAll('.dropdown-trigger');
-       var instances = M.Dropdown.init(elems);
-       });
-       document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems);
+    <script type="text/javascript" src="../js/materialize.min.js"></script>  <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/propio.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127060061-1"></script>  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" src="../js/google_analytics.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
       });
-     </script>
-   </body>
- </html>
+    </script>
+  
+  </body>
+</html>
