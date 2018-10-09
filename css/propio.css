@@ -1,74 +1,45 @@
-.sub{
-  font-size:35px;
-  margin:0;
+.main_title {
+  font-size: 50px;
 }
 
-.page_title{
+.sub {
+  font-size: 35px;
+  margin: 0;
+}
+
+.page_title {
   font-size: 45px;
 }
 
-.page_explanation{
-  font-size: 20px;
-
-}
-
-.archetype{
-  font-size: 40px;
-  font-family: Helvetica;
-}
-
-.persona_margin{
-  padding-top: 20px;
-}
-
-.persona_leftm{
-  padding-left: 20px;
-}
-
-.quote_size{
-  font-size: 18px;
-}
-
-.persona_sub{
+.page_explanation {
   font-size: 20px;
 }
 
-
-.persona_raw_text{
-  font-size: 14px;
-  font-family: Helvetica;
+.plain_text {
+  font-size: 20px;
 }
 
-.low_highlighted{
-  background-color: #d6d6d6;
-
-}
-
-.highlighted{
+.highlighted {
   background-color: white;
-
 }
 
-.highlight_text{
+.low_highlighted {
+  background-color: #d6d6d6;
+}
+
+.highlight_text {
   color : black;
 }
 
-.expert_opinion{
+.expert_opinion {
   text-align:justify;
   text-justify: inter-word;
 }
 
-.plain_text{
-  font-size: 18px;
-}
-
-.slider_title{
+.slider_title {
   color:white;
 }
-.angry_title{
-  color:black;
-}
 
-.main_title{
-  font-size:50px;
+.angry_title {
+  color:black;
 }
