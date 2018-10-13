@@ -60,6 +60,14 @@
   padding-top: 20px;
 }
 
+.bordering{
+  background-color: #efefef;
+}
+
+.persona_border{
+  border: 1px solid #04ceef;
+}
+
 .persona_leftm{
   padding-left: 20px;
 }

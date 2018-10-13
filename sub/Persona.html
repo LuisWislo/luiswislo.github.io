@@ -43,7 +43,7 @@
 
    <body>
 
-     <div class="container">
+     <div class="container persona_border">
 
        <div class="row persona_margin"> <!-- Image, archetype and quotes -->
 
@@ -72,9 +72,9 @@
          </div>
        </div>
 
-       <div class="row"> <!-- Full Profile -->
+       <div class="row bordering persona_border"> <!-- Full Profile -->
 
-         <div class="col s3"> <!-- Demographic AKA Basic Info-->
+         <div class="col s3 "> <!-- Demographic AKA Basic Info-->
            <span class="persona_raw_text">
              <span class="persona_sub"><b>Basic Info:</b></span>
              <p><b>Age: </b>33</p>
@@ -84,9 +84,10 @@
              <p><b>Occupation: </b>Owns a local furniture store </p>
              <p><b>Education: </b>Degree in Communications</p>
            </span>
+           <img class="responsive-img" src="../media/img/family.png">
          </div>
 
-         <div class="col s3 expert_opinion"> <!-- Geographic AKA Location-->
+         <div class="col s3 expert_opinion "> <!-- Geographic AKA Location-->
            <span class="persona_raw_text">
              <span class="persona_sub"><b>Location:</b></span>
              <br>
@@ -94,13 +95,18 @@
              a big house with her husband and two children.<br><br>
              She owns a furniture store “Dina’s Palace” in a high-end plaza
              located a little too far away from home.<br><br>
+             It is a big city with lots people and tons of things to do. The city is
+              a night owl, specially on weekends. Despite that, her home and work places
+               are calm (good for families), secure, pretty and with a balanced combination
+              of urban and natural areas.
+
            </span>
          </div>
 
          <div class="col s6"> <!-- Psycographic -->
            <span class="persona_raw_text">
-             <span class="persona_sub"><b>PlaceHolder:</b></span>
-             <div class="row"> <!-- Class & Lifestyle -->
+             <span class="persona_sub"><b>Activities & more:</b></span>
+             <div class="row "> <!-- Class & Lifestyle -->
                <div class="col s6"><b>Social class:</b> High-Class</div>
                <div class="col s6"><b>Lifestyle:</b> Hard-working, family-oriented, luxuries, modern</div>
              </div>
@@ -143,7 +149,7 @@
        <div class="row"> <!-- Personality & Referents and Influences -->
          <div class="col s7"><!-- Personality -->
            <span class="persona_raw_text">
-           <div class="row">
+           <div class="row ">
              <div class="col s6"> <!-- MBTI Traits -->
                <span class="persona_sub"><b>MBTI Traits:</b></span>
                <div class="row persona_margin"> <!-- First two -->
@@ -231,14 +237,7 @@
                      </div>
                    </div>
 
-                   <div class="col s12"> <!-- Extraversion -->
-                     <div class="row">
-                       <img src="../media/img/openness.png" style="width:100px;">
-                     </div>
-                     <div class="row">
-                       Openness
-                     </div>
-                   </div>
+
                  </div>
 
                  </div>
@@ -292,71 +291,90 @@
         </div>
         </div> <!--lol-->
 
-
-
-
-
        </div> <!-- END OF Personality & Referents and Influences -->
 
-       <div class="row"> <!-- Expertise -->
+       <div class="row persona_margin bordering persona_border"> <!-- Expertise -->
+         <div class="row">
+           <span class="persona_sub"><b>Expertise (Click on image to show score):</b></span>
+         </div>
+       <div class="row center">
          <span class="persona_raw_text">
          <div class="col s2">
-           <div class="row">
-             for image with js
+           <div class="row center">
+             <img id="road" class="responsive-img" src="../media/img/road.png" style="width:150px;">
            </div>
            <div class="row">
-             score (hidden until clic)
+             <span>Knows and uses key roads to avoid traffic congestion.</span>
            </div>
-         </div>
-
-         <div class="col s2">
-           <div class="row">
-             for image with js
-           </div>
-           <div class="row">
-             score (hidden until clic)
+           <div class="row persona_leftm"><!--score row-->
+              <img id="road_score" class="responsive-img" src="../media/img/road_score.png">
            </div>
          </div>
 
          <div class="col s2">
            <div class="row">
-             for image with js
+             <img id="block"class="responsive-img" src="../media/img/block.png" style="width:150px;">
            </div>
            <div class="row">
-             score (hidden until clic)
+             <span> Avoids driving during peak hours.</span>
            </div>
-         </div>
-
-         <div class="col s2">
-           <div class="row">
-             for image with js
-           </div>
-           <div class="row">
-             score (hidden until clic)
+           <div class="row persona_leftm"><!--score row-->
+              <img id="block_score" class="responsive-img" src="../media/img/block_score.png" style="width:150px;">
            </div>
          </div>
 
          <div class="col s2">
            <div class="row">
-             for image with js
+             <img id="legal"class="responsive-img" src="../media/img/legal.png" style="width:150px;">
            </div>
            <div class="row">
-             score (hidden until clic)
+             <span>Drives efficiently without breaking any laws</span>
+           </div>
+           <div class="row persona_leftm"><!--score row-->
+              <img id="legal_score" class="responsive-img" src="../media/img/legal_score.png" style="width:150px;">
            </div>
          </div>
 
          <div class="col s2">
            <div class="row">
-             for image with js
+             <img  id="calm"class="responsive-img" src="../media/img/calm.png" style="width:150px;">
            </div>
            <div class="row">
-             score (hidden until clic)
+             <span>Remains calm even when stuck on traffic for long periods of time.</span>
+           </div>
+           <div class="row persona_leftm"><!--score row-->
+              <img id="calm_score" class="responsive-img" src="../media/img/calm_score.png" style="width:150px;">
+           </div>
+         </div>
+
+         <div class="col s2">
+           <div class="row">
+             <img id="angry" class="responsive-img" src="../media/img/angry.png" style="width:150px;">
+           </div>
+           <div class="row">
+             <span>Does not yell to other drivers.</span>
+           </div>
+           <div class="row persona_leftm"><!--score row-->
+              <img id="angry_score" class="responsive-img" src="../media/img/angry_score.png" style="width:150px;">
+           </div>
+         </div>
+
+         <div class="col s2">
+           <div class="row">
+             <img id="bike" class="responsive-img" src="../media/img/bicycle.png" style="width:150px;">
+           </div>
+           <div class="row">
+             <span>Uses a bike to get to near places.</span>
+           </div>
+           <div class="row persona_leftm"><!--score row-->
+              <img id="bike_score" class="responsive-img" src="../media/img/bicycle_score.png" style="width:150px;">
            </div>
          </div>
        </span>
+     </div>
      </div> <!-- END OF Expertise -->
 
-     <div class="row"> <!-- Experience goals and points for experience goals-->
+     <div class="row "> <!-- Experience goals and points for experience goals-->
        <span class="persona_raw_text">
        <div class="col s8"> <!-- Experience goals-->
 
@@ -370,30 +388,12 @@
              <li>Avoid stressing from a non-productive activity (driving through congested roads).</li>
            </ul>
 
-
-
-
        </div>
        <div class="col s4">
-         points for experience goals
+         <img class="responsive-img" src="../media/img/dina2.jpg" style="height:180px;">
        </div>
        </span>
      </div>
-
-     <div class="row"> <!-- Must Do / Must Never-->
-       <span class="persona_raw_text">
-       <div class="col s6">
-         <span class="persona_sub"><b>Must Do:</b></span>
-
-       </div>
-       <div class="col s6">
-         <span class="persona_sub"><b>Must Never:</b></span>
-       </div>
-       </span>
-     </div>
-
-
-
 
      </div>
 
@@ -402,6 +402,97 @@
      <!--JavaScript at end of body for optimized loading-->
      <script type="text/javascript" src="../js/materialize.min.js"></script>
      <script>
+
+     var roadImg = document.getElementById("road");
+     var roadScore = document.getElementById("road_score");
+
+     var blockImg = document.getElementById("block");
+     var blockScore = document.getElementById("block_score");
+
+     var legalImg = document.getElementById("legal");
+     var legalScore = document.getElementById("legal_score");
+
+     var calmImg = document.getElementById("calm");
+     var calmScore = document.getElementById("calm_score");
+
+     var angryImg = document.getElementById("angry");
+     var angryScore = document.getElementById("angry_score");
+
+     var bikeImg = document.getElementById("bike");
+     var bikeScore = document.getElementById("bike_score");
+
+     roadScore.style.display="none";
+     blockScore.style.display="none";
+     legalScore.style.display="none";
+     calmScore.style.display="none";
+     angryScore.style.display="none";
+     bikeScore.style.display="none";
+
+     roadImg.addEventListener("click",displayRoad);
+     blockImg.addEventListener("click",displayBlock);
+     legalImg.addEventListener("click",displayLegal);
+     calmImg.addEventListener("click",displayCalm);
+     angryImg.addEventListener("click",displayAngry);
+     bikeImg.addEventListener("click",displayBike);
+
+     function displayRoad(){
+       if(roadScore.style.display=="block"){
+         roadScore.style.display="none";
+       }
+       else{
+         roadScore.style.display="block";
+       }
+     }
+
+     function displayBlock(){
+       if(blockScore.style.display=="block"){
+         blockScore.style.display="none";
+       }
+       else{
+         blockScore.style.display="block";
+       }
+     }
+
+     function displayLegal(){
+       if(legalScore.style.display=="block"){
+         legalScore.style.display="none";
+       }
+       else{
+         legalScore.style.display="block";
+       }
+     }
+
+     function displayCalm(){
+       if(calmScore.style.display=="block"){
+         calmScore.style.display="none";
+       }
+       else{
+         calmScore.style.display="block";
+       }
+     }
+
+     function displayAngry(){
+       if(angryScore.style.display=="block"){
+         angryScore.style.display="none";
+       }
+       else{
+         angryScore.style.display="block";
+       }
+     }
+
+     function displayBike(){
+       if(bikeScore.style.display=="block"){
+         bikeScore.style.display="none";
+       }
+       else{
+         bikeScore.style.display="block";
+       }
+     }
+
+
+
+
+
       var btn_tohl = document.getElementById("current_page");
       btn_tohl.addEventListener("DOMContentLoaded",highlight);
 
