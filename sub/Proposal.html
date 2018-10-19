@@ -17,14 +17,13 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html #intro">Know the Problem</a></li>
+            <li><a href="../index.html#intro">Know the Problem</a></li>
             <li><a href="Academic.html">Expert Opinions</a></li>
             <li><a href="Benchmark.html">Other Solutions</a></li>
             <li><a href="Social.html">Social Impact</a></li>
             <li class="highlighted"><a href="#proposal"><span class="highlight_text">Proposal</span></a></li>
             <li><a href="AboutUs.html">About Us</a></li>
            </ul>
-
          </div>
      </nav>
    </div>
@@ -32,118 +31,106 @@
    <ul class="sidenav" id="mobile-demo">
      <li><img class="responsive-img" src="../media/img/brando.png"></li>
      <li><a href="../index.html">Home</a></li>
-     <li><a href="../index.html #intro">Know the Problem</a></li>
+     <li><a href="../index.html#intro">Know the Problem</a></li>
      <li><a href="Academic.html">Expert Opinions</a></li>
      <li><a href="Benchmark.html">Other Solutions</a></li>
      <li><a href="Social.html">Social Impact</a></li>
-     <li class="low_highlighted"><a href="#proposal">Proposal</a></li>
-     <li ><a href="AboutUs.html">About Us</a></li>
+     <li class="low_highlighted"><a href="#proposal"><span class="highlight_text">Proposal</span></a></li>
+     <li><a href="AboutUs.html">About Us</a></li>
    </ul>
 
-   <div class="container">
-     <h1 class="page_title">Want your own website up and running? </h1>
-     <div class="row">
-       <div class="col s10">
-       <span class="plain_text">
-         At Bodart & Wilson we are not only focused on solving one kind of problem. We want
-         to make sure everyone's voice is heard, so we offer our expertise in web design to
-         help you change the world!
-         <br><br>
-         Make sure to read this
-         <a href="../append/files/Lorem_ipsum.pdf" download="Test.pdf">document</a>
-         explaining in full detail our service proposal.
-         <br><br>
-         If you are interested, make sure to fill the form below so we can be in contact with
-         you as soon as possible:
-         <br><br>
-       </span>
-     </div>
-     <div class="col s2">
-       <img class="responsive-img" src="../media/img/happy.png">
-     </div>
-     </div>
-
-     <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <input  id="first_name" type="text" class="validate">
-            <label for="first_name">First Name</label>
-          </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">Last Name</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="email" type="text" class="validate">
-            <label for="email">Email</label>
-          </div>
-          <div class="input-field col s6">
-            <input id="phone" type="text" class="validate">
-            <label for="phone">Phone Number</label>
-          </div>
-
-        </div>
-        <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="textarea1" class="materialize-textarea"></textarea>
-              <label for="textarea1">Tell us a bit about your problem...</label>
-            </div>
-          </div>
-        </form>
-      </div>
-
+   <div class="container">  <!-- Container Proposal-->
+      <h1 class="page_title">Want your own website up and running?</h1>
       <div class="row">
-        <div class="col s6">
-          <input id="date" type="text" class="datepicker">
-          <label for="date">Preffered interview date</label>
-        </div>
-        <div class="col s6">
-           <input type="time" class="timepicker">
-          <label for="time">Preffered interview time (24:00 format)</label>
+        <div class="col s10"> <!-- Page Definition -->
+          <span class="plain_text">
+            At Bodart & Wilson we are not only focused on solving one kind of problem. We want
+            to make sure everyone's voice is heard, so we offer our expertise in web design to
+            help you change the world!
+            <br><br>
+            Make sure to read this
+            <a href="../append/files/Lorem_ipsum.pdf" download="Test.pdf">document</a>
+            explaining in full detail our service proposal.
+            <br><br>
+            If you are interested, make sure to fill the form below so we can be in contact with
+            you as soon as possible:
+            <br><br>
+          </span>
+        </div>  <!-- /Page Definition -->
+        <div class="col s2">
+          <img class="responsive-img" src="../media/img/happy.png">
         </div>
       </div>
-
-      </form>
-
-
-    </div>
-    <div class="row center">
-    <a class="waves-effect waves-light btn black" href="#intro" id="submit">Submit</a>
-    </div>
-   </div>
-
-
-
+      <div class="row">
+        <form class="col s12">  <!-- Form -->
+          <div class="row"> <!-- Name -->
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>  <!-- /Name -->
+          <div class="row"> <!-- Email & Phone -->
+            <div class="input-field col s6">
+              <input id="email" type="text" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="phone" type="text" class="validate">
+              <label for="phone">Phone Number</label>
+            </div>
+          </div>  <!-- /Email & Phone -->
+          <div class="row"> <!-- Tell Us -->
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Tell us a bit about your problem...</label>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /Tell Us -->
+          <div class="row"> <!-- Date -->
+            <div class="col s6">
+              <input id="date" type="text" class="datepicker">
+              <label for="date">Preffered interview date</label>
+            </div>
+            <div class="col s6">
+              <input type="time" class="timepicker">
+              <label for="time">Preffered interview time (24:00 format)</label>
+            </div>
+          </div>  <!-- /Date -->
+        </form> <!-- /Form -->
+      </div>
+      <div class="row center">
+        <a class="waves-effect waves-light btn black" href="#intro" id="submit">Submit</a>
+      </div>
+    </div>  <!-- /Container Proposal -->
 
   <script type="text/javascript" src="../js/materialize.min.js"></script> <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="../js/propio.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127060061-1"></script>  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script type="text/javascript" src="../js/google_analytics.js"></script>
   <script>
+    submit_btn = document.getElementById("submit");
+    submit_btn.addEventListener("click", submission);
 
-  submit_btn = document.getElementById("submit");
-  submit_btn.addEventListener("click",submission);
+    function submission(){
+      alert("Thanks. We will contact you as soon as possible.")
+    }
 
-  function submission(){
-    alert("Thanks. We will contact you as soon as possible.")
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.datepicker');
+      var instances = M.Datepicker.init(elems);
+    });
 
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems);
-  });
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.timepicker');
-    var instances = M.Timepicker.init(elems);
-  });
-
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.timepicker');
+      var instances = M.Timepicker.init(elems);
+    });
   </script>
 
   </body>
